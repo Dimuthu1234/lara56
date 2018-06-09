@@ -1,0 +1,57 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+.navbar-laravel {
+  background-color: #A0FA87;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  height: auto;
+}
+
+.card-header {
+  background-color: #BAFBA8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.card .card-body .card-text {
+  color: #7f7f7f;
+}
+
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #16CE58;
+    border-color: #16CE58;
+}
+
+.btn-primary:hover {
+  background-color: #4DDE2F;
+  border-color: #4DDE2F;
+}
+
+.card img {
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-group,
+.pull-right {
+  margin-right: 20px;
+}
